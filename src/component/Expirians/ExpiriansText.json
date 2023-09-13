@@ -1,0 +1,31 @@
+{
+  "items": [
+    [
+      {
+        "title": "Dan Company For Public Transportation Ltd",
+        "position": "Supervisor ",
+        "dateTime": "Sep 2020 - Sep 2023",
+        "workTime": "Full-time",
+        "place": "Tel-Aviv, Israel"
+      },
+      {
+        "title": "description",
+        "description": "I have a wide range of experience in working with people, which covers a variety of areas and situations. My work involves constant interaction with a variety of personalities and I find it easy to get along with different categories of people."
+      }
+    ],
+
+    [
+      {
+        "title": "National Police of Ukraine",
+        "position": "Forensic Investigator",
+        "dateTime": "June 2012 - Mar 2019",
+        "workTime": "Full-time",
+        "place": "Kyiv, Ukraine"
+      },
+      {
+        "title": "description",
+        "description": "Extensive experience in conducting various forensic examinations such as document examination, biological examination, examination of crime instruments, and examination of weapons and narcotic drugs. Also, collaboration with law enforcement agencies and training and consultations for novice forensic experts."
+      }
+    ]
+  ]
+}
