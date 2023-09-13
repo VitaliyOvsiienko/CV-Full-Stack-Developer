@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/CV_Full-Stack_Developer/static/css/main.d201e4be.css",
-    "main.js": "/CV_Full-Stack_Developer/static/js/main.536e26a5.js",
+    "main.js": "/CV_Full-Stack_Developer/static/js/main.78ef601d.js",
     "static/media/Filmoteka.jpg": "/CV_Full-Stack_Developer/static/media/Filmoteka.d53119f2fe1f0d7ba945.jpg",
     "static/media/IceCream.jpg": "/CV_Full-Stack_Developer/static/media/IceCream.1fce1d8786d9e5edc0fa.jpg",
     "static/media/WebStudio.jpg": "/CV_Full-Stack_Developer/static/media/WebStudio.9274c2f3f8bd9e260363.jpg",
@@ -11,10 +11,10 @@
     "index.html": "/CV_Full-Stack_Developer/index.html",
     "static/media/check.svg": "/CV_Full-Stack_Developer/static/media/check.40e6067883762606203a6234223bd18e.svg",
     "main.d201e4be.css.map": "/CV_Full-Stack_Developer/static/css/main.d201e4be.css.map",
-    "main.536e26a5.js.map": "/CV_Full-Stack_Developer/static/js/main.536e26a5.js.map"
+    "main.78ef601d.js.map": "/CV_Full-Stack_Developer/static/js/main.78ef601d.js.map"
   },
   "entrypoints": [
     "static/css/main.d201e4be.css",
-    "static/js/main.536e26a5.js"
+    "static/js/main.78ef601d.js"
   ]
 }
