@@ -41,7 +41,7 @@ const Contact = ({ open = false }) => {
           </ContactLink>
 
           <ContactLink
-            href="https://drive.google.com/file/d/1ts1J4Wj4WyOelVMUF0Bm8NxbpsDUrx-C/view?usp=drive_link"
+            href="https://drive.google.com/file/d/1rEEFENL6qeWqxrxYeP5ZByFI2RtGRqJQ/view?usp=drive_link"
             target="blank"
             rel="noopener noreferrer"
           >

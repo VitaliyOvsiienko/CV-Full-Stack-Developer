@@ -212,7 +212,7 @@ const FilteredProjects = () => {
                     Independent work on React, utilized React Router DOM and
                     React Icons.
                   </Text>
-                  <Link target="_blank" href="https://vitaliyovsiienko.github.io/CV_Full-Stack_Developer/">
+                  <Link target="_blank" href="https://vitaliyovsiienko.github.io/CV-Full-Stack-Developer/">
                     view-project
                   </Link>
                 </TextBody>
