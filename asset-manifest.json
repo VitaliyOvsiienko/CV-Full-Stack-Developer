@@ -1,13 +1,20 @@
 {
   "files": {
-    "main.css": "/CV-Full-Stack-Developer/static/css/main.7acaea2f.css",
-    "main.js": "/CV-Full-Stack-Developer/static/js/main.07d3183d.js",
-    "index.html": "/CV-Full-Stack-Developer/index.html",
-    "main.7acaea2f.css.map": "/CV-Full-Stack-Developer/static/css/main.7acaea2f.css.map",
-    "main.07d3183d.js.map": "/CV-Full-Stack-Developer/static/js/main.07d3183d.js.map"
+    "main.css": "/CV_Full-Stack_Developer/static/css/main.d201e4be.css",
+    "main.js": "/CV_Full-Stack_Developer/static/js/main.536e26a5.js",
+    "static/media/Filmoteka.jpg": "/CV_Full-Stack_Developer/static/media/Filmoteka.d53119f2fe1f0d7ba945.jpg",
+    "static/media/IceCream.jpg": "/CV_Full-Stack_Developer/static/media/IceCream.1fce1d8786d9e5edc0fa.jpg",
+    "static/media/WebStudio.jpg": "/CV_Full-Stack_Developer/static/media/WebStudio.9274c2f3f8bd9e260363.jpg",
+    "static/media/Node.jpg": "/CV_Full-Stack_Developer/static/media/Node.eb9c712e55cc63714a56.jpg",
+    "static/media/PhoneBook.jpg": "/CV_Full-Stack_Developer/static/media/PhoneBook.1410c2ff408963427044.jpg",
+    "static/media/CV.jpg": "/CV_Full-Stack_Developer/static/media/CV.9670b82f27e92de2c23c.jpg",
+    "index.html": "/CV_Full-Stack_Developer/index.html",
+    "static/media/check.svg": "/CV_Full-Stack_Developer/static/media/check.40e6067883762606203a6234223bd18e.svg",
+    "main.d201e4be.css.map": "/CV_Full-Stack_Developer/static/css/main.d201e4be.css.map",
+    "main.536e26a5.js.map": "/CV_Full-Stack_Developer/static/js/main.536e26a5.js.map"
   },
   "entrypoints": [
-    "static/css/main.7acaea2f.css",
-    "static/js/main.07d3183d.js"
+    "static/css/main.d201e4be.css",
+    "static/js/main.536e26a5.js"
   ]
 }
