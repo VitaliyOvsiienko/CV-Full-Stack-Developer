@@ -1,7 +1,8 @@
 {
   "files": {
     "main.css": "/CV-Full-Stack-Developer/static/css/main.d201e4be.css",
-    "main.js": "/CV-Full-Stack-Developer/static/js/main.0da88440.js",
+    "main.js": "/CV-Full-Stack-Developer/static/js/main.e6cd39e6.js",
+    "static/media/HealthyHub.jpg": "/CV-Full-Stack-Developer/static/media/HealthyHub.575c54be46419ea0c30d.jpg",
     "static/media/Filmoteka.jpg": "/CV-Full-Stack-Developer/static/media/Filmoteka.d53119f2fe1f0d7ba945.jpg",
     "static/media/IceCream.jpg": "/CV-Full-Stack-Developer/static/media/IceCream.1fce1d8786d9e5edc0fa.jpg",
     "static/media/WebStudio.jpg": "/CV-Full-Stack-Developer/static/media/WebStudio.9274c2f3f8bd9e260363.jpg",
@@ -11,10 +12,10 @@
     "index.html": "/CV-Full-Stack-Developer/index.html",
     "static/media/check.svg": "/CV-Full-Stack-Developer/static/media/check.40e6067883762606203a6234223bd18e.svg",
     "main.d201e4be.css.map": "/CV-Full-Stack-Developer/static/css/main.d201e4be.css.map",
-    "main.0da88440.js.map": "/CV-Full-Stack-Developer/static/js/main.0da88440.js.map"
+    "main.e6cd39e6.js.map": "/CV-Full-Stack-Developer/static/js/main.e6cd39e6.js.map"
   },
   "entrypoints": [
     "static/css/main.d201e4be.css",
-    "static/js/main.0da88440.js"
+    "static/js/main.e6cd39e6.js"
   ]
 }
