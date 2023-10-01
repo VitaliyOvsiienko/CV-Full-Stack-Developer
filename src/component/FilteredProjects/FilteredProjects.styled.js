@@ -130,3 +130,11 @@ export const IconSass = styled(SecondIcon)`
 export const IconJs = styled(Icon)`
   background-color: #f0db4f;
 `;
+
+export const IconNode = styled(Icon)`
+  background-color: #00ff00;
+`;
+
+export const IconSecondNode = styled(SecondIcon)`
+  background-color: #00ff00;
+`;

@@ -17,6 +17,8 @@ import {
   IconReact,
   IconSass,
   IconJs,
+  IconNode,
+  IconSecondNode,
 } from './FilteredProjects.styled';
 import { FaReact, FaHtml5, FaSass, FaNode } from 'react-icons/fa';
 import { DiJavascript1 } from 'react-icons/di';
@@ -27,6 +29,7 @@ import Filmoteka from '../../img/Filmoteka.jpg';
 import PhoneBook from '../../img/PhoneBook.jpg';
 import CV from '../../img/CV.jpg';
 import Node from '../../img/Node.jpg';
+import HealthyHub from '../../img/HealthyHub.jpg';
 
 const iconHtml = (
   <IconHtml>
@@ -49,10 +52,17 @@ const iconJs = (
   </IconJs>
 );
 const iconNode = (
-  <IconJs>
+  <IconNode>
     <FaNode style={{ fontSize: '20px' }} />
-  </IconJs>
+  </IconNode>
 );
+
+const iconSecondNode = (
+  <IconSecondNode>
+    <FaNode style={{ fontSize: '20px' }} />
+  </IconSecondNode>
+);
+
 
 const FilteredProjects = () => {
   const [filters, setFilters] = useState([]);
@@ -72,18 +82,48 @@ const FilteredProjects = () => {
       <SubTitle text={'Projects'} />
       <Container>
         <List>
+
+{(filters.length === 0 ||
+            filters.includes('React') ||
+            filters.includes('Node')) && (
+            <Item>
+              <Title>
+                Project 1 <SecondTitle>&#47;&#47; HealthyHub</SecondTitle>
+              </Title>
+              <Body>
+                <Img src={HealthyHub} alt="preview project 1" width="370" />
+                <TextBody>
+                  <Text>
+                    An app for tracking health, nutrition, weight, and water intake.
+                    It calculates calorie needs based on weight, gender, height, activity
+                    and offers chart tracking
+                  </Text>
+                  <Link
+                    target="_blank"
+                    href="https://alextkachenkofullstack.github.io/healthy-hub/"
+                  >
+                    view-project
+                  </Link>
+                </TextBody>
+                {iconReact}
+                {iconSecondNode}
+              </Body>
+            </Item>
+          )}
+
+
           {(filters.length === 0 || filters.includes('React')) && (
             <Item>
               <Title>
-                Project 1 <SecondTitle>&#47;&#47; Phonebook</SecondTitle>
+                Project 2 <SecondTitle>&#47;&#47; Phonebook</SecondTitle>
               </Title>
               <Body>
-                <Img src={PhoneBook} alt="preview project 1" width="370" />
+                <Img src={PhoneBook} alt="preview project 2" width="370" />
                 <TextBody>
                   <Text>
                     A simple phonebook connected to backend API, where you can
                     register, log in, add, remove, or filter contacts, and log
-                    out.
+                    out
                   </Text>
                   <Link
                     target="_blank"
@@ -97,17 +137,39 @@ const FilteredProjects = () => {
             </Item>
           )}
 
+
+          {(filters.length === 0 || filters.includes('React')) && (
+            <Item>
+              <Title>
+                Project 3 <SecondTitle>&#47;&#47; CV</SecondTitle>
+              </Title>
+              <Body>
+                <Img src={CV} alt="preview project 3" width="370" />
+                <TextBody>
+                  <Text>
+                    Independent work on React, utilized React Router DOM and
+                    React Icons
+                  </Text>
+                  <Link target="_blank" href="https://vitaliyovsiienko.github.io/CV-Full-Stack-Developer/">
+                    view-project
+                  </Link>
+                </TextBody>
+                {iconReact}
+              </Body>
+            </Item>
+          )}
+
           {(filters.length === 0 || filters.includes('JS')) && (
             <Item>
               <Title>
-                Project 2 <SecondTitle>&#47;&#47; Filmoteka</SecondTitle>
+                Project 4 <SecondTitle>&#47;&#47; Filmoteka</SecondTitle>
               </Title>
               <Body>
-                <Img src={Filmoteka} alt="preview project 2" width="370" />
+                <Img src={Filmoteka} alt="preview project 4" width="370" />
                 <TextBody>
                   <Text>
                     The website for movie searching on demand. Team
-                    collaboration, my role on the project was a developer.
+                    collaboration, my role on the project was a developer
                   </Text>
                   <Link
                     target="_blank"
@@ -124,10 +186,10 @@ const FilteredProjects = () => {
           {(filters.length === 0 || filters.includes('Node')) && (
             <Item>
               <Title>
-                Project 3 <SecondTitle>&#47;&#47; Node.js</SecondTitle>
+                Project 5 <SecondTitle>&#47;&#47; Node.js</SecondTitle>
               </Title>
               <Body>
-                <Img src={Node} alt="preview project 3" width="370" />
+                <Img src={Node} alt="preview project 5" width="370" />
                 <TextBody>
                   <Text>
                     This project includes user registration and authentication
@@ -151,14 +213,14 @@ const FilteredProjects = () => {
             filters.includes('CSS')) && (
             <Item>
               <Title>
-                Project 4 <SecondTitle>&#47;&#47; ICE CREAM</SecondTitle>
+                Project 6 <SecondTitle>&#47;&#47; ICE CREAM</SecondTitle>
               </Title>
               <Body>
-                <Img src={IceCream} alt="preview project 4" width="370" />
+                <Img src={IceCream} alt="preview project 6" width="370" />
                 <TextBody>
                   <Text>
                     Single-page presentation of the ice cream selling website.
-                    Team collaboration, my role on the project was a developer.
+                    Team collaboration, my role on the project was a developer
                   </Text>
                   <Link
                     target="_blank"
@@ -178,14 +240,14 @@ const FilteredProjects = () => {
             filters.includes('CSS')) && (
             <Item>
               <Title>
-                Project 5 <SecondTitle>&#47;&#47; Web Studio</SecondTitle>
+                Project 7 <SecondTitle>&#47;&#47; Web Studio</SecondTitle>
               </Title>
               <Body>
-                <Img src={WebStudio} alt="preview project 5" />
+                <Img src={WebStudio} alt="preview project 7" />
                 <TextBody>
                   <Text>
                     Two-page business card website. Presentation of the web
-                    design company.
+                    design company
                   </Text>
                   <Link
                     target="_blank"
@@ -200,26 +262,7 @@ const FilteredProjects = () => {
             </Item>
           )}
 
-          {(filters.length === 0 || filters.includes('React')) && (
-            <Item>
-              <Title>
-                Project 6 <SecondTitle>&#47;&#47; CV</SecondTitle>
-              </Title>
-              <Body>
-                <Img src={CV} alt="preview project 6" width="370" />
-                <TextBody>
-                  <Text>
-                    Independent work on React, utilized React Router DOM and
-                    React Icons.
-                  </Text>
-                  <Link target="_blank" href="https://vitaliyovsiienko.github.io/CV-Full-Stack-Developer/">
-                    view-project
-                  </Link>
-                </TextBody>
-                {iconReact}
-              </Body>
-            </Item>
-          )}
+          
         </List>
       </Container>
     </Box>
